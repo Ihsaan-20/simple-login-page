@@ -1,0 +1,73 @@
+body {
+    background-color: #589ED9;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 120px;
+}
+
+#header h1 {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+#main-body {
+
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.login-form{
+    padding: 10px;;
+    overflow: hidden;
+}
+
+#main-body .login-form input[type="email"],
+#main-body .login-form input[type="password"] {
+    width: 100%;
+    display: block;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 16px 0px;
+    outline: none;
+
+}
+
+#main-body .login-form input[type="password"] {
+    border-top: 1px solid #ccc;
+}
+
+.button{
+    background-color: #167ece;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 15px 0px;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.button span{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-indent: 10px;
+}
+.button:hover{
+    background-color: #0967af;
+}
+
+#footer p{
+    color:#fff;
+    font-size: 18px;
+}
+#footer p span{
+    font-weight: 700;
+}
